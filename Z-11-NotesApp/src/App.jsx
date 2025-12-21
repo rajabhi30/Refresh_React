@@ -62,7 +62,7 @@ const App = () => {
                 return <div key={idx} className='relative h-50  w-45 rounded-2xl text-black bg-[url("https://static.vecteezy.com/system/resources/previews/037/152/677/non_2x/sticky-note-paper-background-free-png.png")] bg-cover'>
                     <h2  onClick={()=>{
                         deleteNote(idx)
-                    }} className='absolute top-41 right-2 text-xs bg-gray-500 text-white p-2 rounded-full p-1 active:scale-95'>X</h2>
+                    }} className='absolute top-41 right-2 text-xs bg-gray-500 text-white p-2 rounded-full active:scale-95'>X</h2>
                     <h3 className='m-3 text-2xl font-bold'>{elem.title}</h3>
                     <p className=' p-2 text-xl text-gray-600'>{elem.detail}</p>
                 </div>
